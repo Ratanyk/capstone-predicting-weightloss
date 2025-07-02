@@ -36,16 +36,52 @@ Linear regression is a statistical method that can be used to understand the rel
 
 
 #### Results
-What did your research find?
+Results
+Data Visualization
+As mentioned above, in exploring the dataset, a number of visualization was created to understand the distribution of weight loss information in the dataset. An example is the chart below that shows the number of steps taken by a Fitbit user during the period of 4/12/2016 to 5/12/2016.
+
+Fitbit User Total Steps taken Over a Month's Period!
+
+The average number of steps for this user is approximately 12,000 and supports the average Calories recorded below.
+
+With the average number of steps above, how does this translates to average number of calories. The chart below shows the number of calories lost by this user over the same period of 4/12/2016 to 5/12/2016.
+
+Fitbit User Calories Lost Over a Month's Period!
+
+This User is a fairly active users over the number of days in the dataset with average of 1816 calories over the number of days above
+
+Finally, a visualization of the final data used to create the ML applications looking at the count of the Calories lost by all 33 Fitbit users.
+
+Count of Calories lost by 33 Fitbit Users in Final Dataset!
+
+The chart shows that largest amount of Calories lost recorded by users at 2,000, a fair distribution of calories lost data from 1,400 to 4,000 which means the ML Application would probably make better predictions for users that have recorded their number of steps and other variables in the data against these calories.
+
+
+
+AI Application 1 - ML Regressors
+Regressors are a type of ML algorithms that can be used to predict a continuos value. The do this by learning from data (i.e., number of steps taken, total distance etc.) and then using that data to create a model that can make predictions about new data (i.e., number of calories lost)
+
+The application uses variables like Total Distance and No of Steps taken to predict number of calories that a user could lose.
+
+Algorithm: GradientBoostingRegressor
+
+Training Score	85%
+Test Score	61%
+This algorithm can predict calories loss with an accuracy of over 60%+
+
 
 #### Next steps
 What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- https://github.com/Ratanyk/capstone-predicting-weightloss/blob/main/notebooks/predicting-weight-loss-notebook1-linear-regression.ipynb
 - [Link to notebook 2]()
 - [Link to notebook 3]()
 
 
 ##### Contact and Further Information
+Author - Ratan Yalamanchili
+
+Email - myselfratan@gmail.com
+
