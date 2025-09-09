@@ -76,8 +76,23 @@ What suggestions do you have for next steps?
 #### Outline of project
 
 - https://github.com/Ratanyk/capstone-predicting-weightloss/blob/main/notebooks/predicting-weight-loss-notebook1-linear-regression.ipynb
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- https://github.com/Ratanyk/capstone-predicting-weightloss/blob/main/notebooks/predicting-weight-loss-notebook2-decision-tree.ipynb
+- https://github.com/Ratanyk/capstone-predicting-weightloss/blob/main/notebooks/predicting-weight-loss-notebook3-comparing-classifiers.ipynb
+
+
+Recommendations : 
+
+Recommended Model: GradientBoostingRegressor
+    - Training accuracy: 86% | Testing accuracy: 61%
+    - Strong candidate for predicting calories burned and weight loss potential
+    - Performance can be further improved with more diverse and high-activity data (e.g., users with >30k steps/day and >5 miles distance)
+
+
+Data Collection for Model Enhancement:
+    - Lifestyle Metrics: Daily water intake, sleep patterns, and calorie intake (Protein, Carbs, Fats)
+    - User Demographics: Age, Gender, Weight, Height, BMI
+    - Activity Metrics: Heart rate, active minutes, and step intensity
+    - Including these features will help the model capture personalized patterns, improving prediction accuracy
 
 
 ##### Contact and Further Information
